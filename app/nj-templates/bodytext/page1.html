@@ -1,3 +1,20 @@
+{% set setsection = "part1" %}
+This is tagged as part 2
+{% for item in data %}
+    {% if item.section == setsection %}
+        <li>{{item.col1}},{{item.col2}}</li>
+    {% endif %}
+{% endfor %}
+
+
+{% set setsection = "part2" %}
+This is tagged as part 2
+{% for item in data %}
+    {% if item.section == setsection %}
+        <li>{{item.col1}},{{item.col2}}</li>
+    {% endif %}
+{% endfor %}
+
 <div class="container bodyContainer" alignment="true">
   <div class="row" alignment="true">
     <div class="col-md-6 col col-md-offset-3" alignment="true">
