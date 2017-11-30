@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
       var docViewTop = $(window).scrollTop();
-      var docViewBottom = docViewTop + $(window).height();
+      var docViewBottom = docViewTop + $(window).height() / 2;
 
       var elemTop = $(this).offset().top;
       var elemBottom = elemTop + $(this).height();
@@ -26,15 +26,6 @@ $(document).ready(function() {
 
 
 
-  // $(".scroll-img").each(function() {
-  //   var $this = $(this);
-  //   if ($this.attr("class").includes("firstimg")) {
-  //     $(this).addClass("inview");
-  //     var findsrc = $this.find("img").attr("data-src");
-  //     $this.find("img").attr("src", findsrc);
-  //   }
-  //
-  // })
   $(window).scroll(function() {
 
     if ($(".scroll-gal").offset().top > $(window).scrollTop()) {

@@ -1,3 +1,4 @@
+
 @import "philly-styles/values";
 
 .headerIntro {
@@ -6,22 +7,6 @@
     height: auto;
 }
 
-#backgroundImage-1 {
-    background-image: url("http://media.philly.com/images/102515-Philadelphia-skyline.jpg");
-    background-position: left 50% top 79px;
-    @include tablet {
-        background-position: left 50% top 49px;
-        background-size: contain;
-    }
-}
-
-#backgroundImage-2 {
-    background-image: url("http://media.philly.com/images/102515-Philadelphia-skyline.jpg");
-    background-position: center;
-    @include tablet {
-        background-size: cover;
-    }
-}
 
 .backgroundImage {
     position: relative;
@@ -41,38 +26,7 @@
     }
 }
 
-.overlayText {
-    position: absolute;
-    top: auto;
-    bottom: 20%;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    color: #fff;
-    font-family: $philly-sans;
-    font-weight: 600;
-    letter-spacing: -5px;
-    line-height: normal;
-    text-shadow: 0 0 15px #000;
-    font-size: 80px;
-    @include tablet {
-        font-size: 68px;
-        padding: 0 10px;
-    }
-    @include mobile {
-        position: relative;
-        top: inherit;
-        bottom: inherit;
-        color: #000;
-        text-shadow: none !important;
-        padding: 30px 10px 10px;
-        margin-bottom: 0.625rem;
-        font-weight: 800;
-        letter-spacing: -.0625rem;
-        font-size: 2.5rem;
-        line-height: 1.05;
-    }
-}
+
 
 .backgroundImageCredit {
     position: absolute;
@@ -151,12 +105,16 @@
 .containerQuote {
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
-    margin-left: -11%;
+    margin-left: -30%;
     @media (max-width: 992px) {
         margin-left: 0;
+        max-width: 50%;
     }
     @media (min-width: 992px) {
-        max-width: 46%;
+        max-width: 70%;
+    }
+    @media (max-width: 600px) {
+      max-width: 100%;
     }
 }
 

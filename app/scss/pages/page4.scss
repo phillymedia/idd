@@ -3,7 +3,7 @@
 
 
 #backgroundImage-1 {
-    background-image: url("http://media.philly.com/images/idd_day2_f.jpg");
+    background-image: url("http://media.philly.com/images/idd_day4_f.jpg");
     background-position: left 50% top 79px;
     @include tablet {
         background-position: left 50% top 49px;
@@ -14,31 +14,31 @@
 
 
 .article-headline {
-  border-bottom:8px dotted $idd-day2;
+  border-bottom:8px dotted $idd-day4;
   padding-bottom: 10px;
   display: inline-block;
 }
 
 .scroll-gal .text {
-    background-color: $idd-day2;
+    background-color: $idd-day4;
 }
 
 .box-headline {
-  color: $idd-day2;
+  color: $idd-day4;
 }
 
 .breakout {
-  background-color: $idd-day2;
+  background-color: $idd-day4;
 }
 
 .footer {
-  background-color: $idd-day2;
+  background-color: $idd-day4;
 }
 
 .subHead {
-  color: $idd-day2;
+  color: $idd-day4;
 }
 
 .containerQuoteText {
-  color: $idd-day2;
+  color: $idd-day4;
 }

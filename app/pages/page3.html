@@ -1,9 +1,12 @@
+{% set page = "page3" %}
+
 {% extends "pagetemplate.html" %}
 
 {% block styles %}
 <!--removeIf(production)-->
 <!--build:css min-files/styles.min.css-->
 <link rel="stylesheet" href="css/styles.css">
+
 <link rel="stylesheet" href="css/pages/page3.css">
 <!--endbuild-->
 <!--endRemoveIf(production)-->
@@ -13,9 +16,18 @@
 
 <div class="headerIntro">
     <div class="backgroundImage" id="backgroundImage-1">
-        <div class="backgroundImageCredit" alignment="true">Xxxx Xxxx / Staff Photographer</div>
+        <div class="backgroundImageCredit" alignment="true">MICHAEL BRYANT / Staff Photographer</div>
     </div>
-    <h1 class="overlayText">This is page 3</h1>
+    <div class="overlayText">
+      <div class="series-headline">Falling Off the Cliff</div>
+      <div class="series-deck">As disabled children become adults, parents face a crisis of help that will impact us all.</div>
+      <div class="article-headline">Part 3: Finding Work</div>
+      <div class="byline">
+          <a href="rpolaneczky@phillynews.com">Ronnie Polaneczky / Staff Writer</a>
+          <!-- <div style="float:right;" class="custom-social-share" alignment="true">&nbsp;</div> -->
+      </div>
+      <div class="dateline">Dec. 4, 2017</div>
+    </div>
 </div>
 
 {% endblock %}

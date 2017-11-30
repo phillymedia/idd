@@ -1,1 +1,44 @@
 @import '../philly-styles/values';
+
+
+
+#backgroundImage-1 {
+    background-image: url("http://media.philly.com/images/idd_day3_f.jpg");
+    background-position: left 50% bottom -70px !important;
+    @include tablet {
+        background-position: left 50% top 49px !important;
+        background-size: contain;
+    }
+}
+
+
+
+.article-headline {
+  border-bottom:8px dotted $idd-day3;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.scroll-gal .text {
+    background-color: $idd-day3;
+}
+
+.box-headline {
+  color: $idd-day3;
+}
+
+.breakout {
+  background-color: $idd-day3;
+}
+
+.footer {
+  background-color: $idd-day3;
+}
+
+.subHead {
+  color: $idd-day3;
+}
+
+.containerQuoteText {
+  color: $idd-day3;
+}

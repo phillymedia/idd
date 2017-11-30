@@ -1,33 +1,49 @@
-{% include "partials/shell/head.html" %}
-{% block styles %}{% endblock %}
+{% include "partials/shell/head.html" %} {% block styles %}{% endblock %} {% block headercontent %}{% endblock %}
 
 
-{% block headercontent %}{% endblock %}
 
-<div id="story">
+<!-- <div id="series-nav">
+  <div class="part-nav {% if page == 'page1' %}selected{% endif %}" id="part-1"><span>Part 1: A Crisis for the Disabled</span></div>
+  <div class="part-nav {% if page == 'page2' %}selected{% endif %}" id="part-2"><span>Part 2: Finding Good Help</span></div>
+  <div class="part-nav {% if page == 'page3' %}selected{% endif %}" id="part-3"><span>Part 3: Finding Work</span></div>
+  <div class="part-nav {% if page == 'page4' %}selected{% endif %}" id="part-4"><span>Part 4: Life after death</span></div>
+</div> -->
 
-<div class="headerSection">
-    <div class="BackgroundImageCaption">
-        This is a photo caption.
-    </div>
-    <div class="headDisplay">
-        <div class="subHead">
-            This content is the same on every page.
-        </div>
-        <div class="byline">
-            Jeff McLane / Staff Writer, <a href="mailto:jmclane@phillynews.com">jmclane@phillynews.com</a>
-            <div style="float:right;" class="custom-social-share" alignment="true">&nbsp;</div>
-        </div>
-        <div class="dateline">Pub date, Xxx. ##, 2017</div>
-    </div>
+<div id="nav-top" class="nav-footer">
+  {% include "partials/nav.html" %}
 </div>
+<div style="margin:0 auto; width:250px;padding: 50px 0 20px;" class="custom-social-share" alignment="true">&nbsp;</div>
+
 
 
 {% block bodycontent %}{% endblock %}
 
+<div class="container-fluid sourcebox" alignment="true">
+  <div class="row" alignment="true">
+    <div class="col-md-10 col col-md-offset-1" alignment="true">
+      <div id="nav-bottom" class="nav-footer">
+        <div class="nav-title-more">More in this series</div>
+        <div class="nav-title-footer">Falling Off the Cliff</div>
+        {% include "partials/nav.html" %}
+      </div>
+
+      <div class="credits">
+        <span class="creditItem">
+          <span class="title">Reporter:</span> Ronnie Polaneczky</span>
+        <span class="creditItem"><span class="title">Editor:</span> Sandy Shea</span>
+        <span class="creditItem"><span class="title">Visual editor:</span> Frank Wiese</span>
+        <span class="creditItem"><span class="title">Design and graphics:</span> Jared Whalen</span>
+        <span class="creditItem"><span class="title">Photography:</span> Michael Bryant</span>
+        <span class="creditItem"><span class="title">Video:</span> Jared Whalen & Michael Bryant</span>
+        <span class="creditItem"><span class="title">Project Managers:</span> Ellen Dunkel & Emily Babay</span>
+        <span class="creditItem"><span class="title">Copy Editing:</span> Gina Esposito </span>
+        <span class="creditItem"><span class="title">Social Editor:</span> Ray Boyd </span>
+      </div>
+    </div>
+  </div>
 </div>
+
 {% include "partials/recirc-box.html" %}
 
 <div>{% include "partials/script-links.html" %}</div>
-{% block jsfile %}{% endblock %}
-{% include "partials/shell/footer.html" %}
+{% block jsfile %}{% endblock %} {% include "partials/shell/footer.html" %}
