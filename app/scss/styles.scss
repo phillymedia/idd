@@ -8,6 +8,11 @@
   color:white;
 }
 
+.subscribetoday a {
+    font-weight: 700;
+    color: #fff!important;
+}
+
 .backgroundImage {
   @include tablet {
     margin-top: 50px;
