@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+$(".scroll-img-meta").mouseenter(function(){
+  $(this).find('.scroll-img-caption').slideDown();
+});
+
+$(".scroll-img-meta").mouseleave(function(){
+  $(this).find('.scroll-img-caption').slideUp();
+});
 
   $(window).scroll(function() {
     $(".text-section").each(function() {

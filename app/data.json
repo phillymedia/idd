@@ -32,53 +32,14 @@
   {
     "part": "part1",
     "section": "section1",
-    "class": "",
+    "class": "last",
     "image": "http://media.philly.com/images/IDD_JUSTIN03-d.JPG",
     "caption": "Justin is a sweet and happy guy, says his mother, Annette Scott.",
     "credit": "MICHAEL BRYANT / Staff Photographer",
     "text": "",
     "position": ""
   },
-  {
-    "part": "part1",
-    "section": "section1",
-    "class": "",
-    "image": "http://media.philly.com/images/ssIDD_Ramos03-a.JPG",
-    "caption": "Marisol Ramos wipes her daughter Naomi's face as the family gets ready to go a shopping trip to Rite-Aid.",
-    "credit": "MICHAEL BRYANT / Staff Photographer",
-    "text": "Marisol and Jose Ramos, ages 45 and 46, live in Wissinoming Park and have two children with intellectual disabilities: Naomi, 21, and Justin, 14.",
-    "position": "left"
-  },
-  {
-    "part": "part1",
-    "section": "section1",
-    "class": "",
-    "image": "http://media.philly.com/images/ssIDD_Ramos03-b.JPG",
-    "caption": "Naomi Ramos is helped by her direct support worker, Sharee Brinson, before a family outing.",
-    "credit": "MICHAEL BRYANT / Staff Photographer",
-    "text": "Naomi's impairments are profound: She's incontinent, doesn't speak, screams incessantly, constantly pings around the house, and can never be left alone. Justin is autistic but higher-functioning and easier to handle than his sister. The stress of caring for them both contributed to Marisol's stroke.",
-    "position": "right"
-  },
-  {
-    "part": "part1",
-    "section": "section1",
-    "class": "",
-    "image": "http://media.philly.com/images/ssIDD_Ramos03-c.JPG",
-    "caption": "Jose Ramos helps his daughter, Naomi, look through through a stack of magazines during a shopping trip.",
-    "credit": "MICHAEL BRYANT / Staff Photographer",
-    "text": "Relief came only when Naomi finally received Medicaid-funded services, for which there is a years-long waiting list, allowing the Ramoses to hire help. For the first time since their daughter was born, they were sleeping through the night.",
-    "position": "left"
-  },
-  {
-    "part": "part1",
-    "section": "section1",
-    "class": "last",
-    "image": "http://media.philly.com/images/ssIDD_Ramos03-4.JPG",
-    "caption": "Naomi Ramos listens to music constantly and loves to dance.",
-    "credit": "MICHAEL BRYANT / Staff Photographer",
-    "text": "",
-    "position": "left"
-  },
+
   {
     "part": "part2",
     "section": "section1",
