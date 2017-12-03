@@ -1,6 +1,5 @@
 require("./scroll-gal.js")
 
-var AOS = require('aos');
 
 $(document).ready(function() {
 
@@ -12,9 +11,7 @@ $(document).ready(function() {
     "opacity":1
   });
 
-  AOS.init({
 
-  });
 
 
 });
