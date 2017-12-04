@@ -1,10 +1,14 @@
 @import '../philly-styles/values';
 
 
+.headerIntro {
+      background-color: #000 !important;
+}
 
 #backgroundImage-1 {
     background-image: url("http://media.philly.com/images/idd_day2_f.jpg");
     background-position: left 50% top 79px;
+    opacity: 0.9;
     @include tablet {
         background-position: left 50% top 49px;
         background-size: contain;

@@ -193,6 +193,15 @@
         margin: 18px 0 30px;
     }
 }
+
+.imagebreakM {
+  @include tablet {
+    margin: 40px 0 50px;
+  }
+  @include mobile {
+      margin: 18px 0 30px;
+  }
+}
 .pull-right {
     @include mobile {
         padding:15px 0 20px 0 !important;
