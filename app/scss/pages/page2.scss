@@ -3,6 +3,9 @@
 
 .headerIntro {
       background-color: #000 !important;
+      @include tablet {
+        background-color: #fff !important;
+      }
 }
 
 #backgroundImage-1 {
@@ -12,6 +15,7 @@
     @include tablet {
         background-position: left 50% top 49px;
         background-size: contain;
+        opacity: 1;
     }
 }
 
